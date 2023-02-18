@@ -1,0 +1,208 @@
+@charset "UTF-8";
+
+nav {
+    display: flex;
+    font-family: OCR A Std, monospace;
+    padding: 3px;
+    
+
+
+
+}
+
+
+img {
+    width: 300px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 40%;
+}
+
+
+body {
+    background-image: url("./images/img (39).jpg");
+    background-size: cover;
+    background-color: rgb(94, 68, 241);
+}
+
+.flexbox-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.flexbox-item {
+    width: 500px;
+    margin: 10px;
+    padding: 10px;
+    border: 3px solid #333;
+    background-color: #333;
+}
+
+.flexbox-item-1 {
+    min-height: 100px;
+    font-family: OCR A Std, monospace;
+    background-color: rgba(123, 78, 145, 0.767);
+}
+
+.flexbox-item-2 {
+    width: 750px;
+    min-height: 200px;
+    font-family: OCR A Std, monospace;
+    background-color: rgba(8, 214, 241, 0.712);
+}
+
+.flexbox-item-3 {
+    width: 375px;
+    min-height: 300px;
+    font-family: OCR A Std, monospace;
+    text-align: end;
+    background-color: rgba(123, 78, 145, 0.767);
+}
+
+header {
+    font-family: OCR A Std, monospace;
+    text-align: center;
+    padding: 3px;
+    border-radius: 20px;
+    border-color: rgb(105, 61, 102);
+    background-color: rgba(61, 7, 148, 0.678);
+    background-image: radial-gradient(#219df0ad, #ad308eb2, #598cc5cc);
+    color: white;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 30;
+    padding: 20;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 96.5%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 1px 10px;
+    text-decoration: none;
+}
+
+
+li a:hover {
+    background-color: #02c3f3;
+}
+
+li {
+    border-right: 1px solid #bbb;
+}
+
+
+
+
+
+
+* {
+    box-sizing: border-box
+}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
