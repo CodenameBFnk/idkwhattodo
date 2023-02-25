@@ -1,0 +1,38 @@
+[
+    {
+        "image": "fry.jpg",
+        "name": "fry"
+    },
+    {
+        "image": "zen.jpg",
+        "name": "zen"
+    },
+    {
+        "image": "sea.jpg",
+        "name": "sea"
+    },
+    {
+        "image": "astro.jpg",
+        "name": "astro"
+    },
+    {
+        "image": "cham.jpg",
+        "name": "cham"
+    },
+    {
+        "image": "floof.jpg",
+        "name": "floof"
+    },
+    {
+        "image": "ball.jpg",
+        "name": "ball"
+    },
+    {
+        "image": "treasure.jpg",
+        "name": "treasure"
+    },
+    {
+        "image": "bunny.jpg",
+        "name": "bunny"
+    }
+]
